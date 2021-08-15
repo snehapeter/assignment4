@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+} 
+.fa-apple, .fa-shopping-bag, .fa-search {
+    width: 20px;
+} 
+.list ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.list-item{
+    text-overflow: hidden;
+      padding: 0 25px 0 5px;
+}
+  
+.list ul li {
+    margin: 0 10px 0 0;
+}
+  
+.list ul li:nth-child(1) {
+    margin-left: 0;
+}
+.list li, .list a {
+    color: gray;
+    line-height: 44px;
+    text-decoration: none;
+}
+  
+
+.fa-shopping-bag{
+
+    text-align:end;
+}
+.list ul li a:hover{
+    color:white;
+}
+
+.welcome-msg{
+    text-align: center;
+    color: rgb(82, 79, 79);
+}
+
